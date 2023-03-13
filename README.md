@@ -1,9 +1,11 @@
 # Thesis_Project
 
-
-
 This project involves an Electric motor fault detection and diagnosis through the use of Deep Learning technologies and architectures with the use of raw data collected
 from AWE
+
+## Data Source - Paper:
+
+DeepHealth: A self-attention based method for instant intelligent predictive maintenance in industrial Internet of things
 
 ## AWE dataset
 
@@ -19,3 +21,8 @@ the validation data set (Validation set) which constitutes 20% and the test set 
 
 The data was then modified through scaling and each row of 1024 positions was converted into a gray-scale table-image of 32×32×1. 
 Then the above data were fed into the convolutional neural network (CNN) and Attention architectures.
+
+Experiment environment:
+       IDE: Spyder
+       Language: Python 3.9
+       Tensorflow: 1.14.0
